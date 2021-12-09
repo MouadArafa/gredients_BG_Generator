@@ -1,0 +1,51 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital@1&family=Estonia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@1,700&family=Estonia&family=Open+Sans+Condensed:ital,wght@1,300&display=swap');
+body{
+    background-image: linear-gradient(to right , red , blue);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-direction: column;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Amiri', serif;
+    font-family: 'Estonia', cursive;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 50px;
+}
+.title {
+    display: flex;
+    align-items: center;
+    flex-direction : column;
+}
+.title h1 {
+    margin: 5px;
+}
+.enter {
+    display: flex;
+    justify-content: center;
+    flex-direction : row;
+}
+.enter input{
+    margin:30px
+}
+
+.hello{
+    display: flex;
+    justify-content: center;
+}
+#finalValue {
+    text-align: center;
+    font-weight: bolder;
+    width: 550px;
+    height: 50px;
+    font-size:30px ;
+    
+}
+
+
